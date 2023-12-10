@@ -1,11 +1,24 @@
 "use client";
+import { useUser } from "@/hooks/useUser";
 import {TbPlaylist} from "react-icons/tb";
 import {AiOutlinePlus} from "react-icons/ai";
 
+import useAuthModal from "@/hooks/useAuthModal";
+import useUploadModal from "@/hooks/useUploadModal";
+
 
 const Library = () => {
+    const authModal = useAuthModal();
+    const uploadModal = useUploadModal();
+    const { user } = useUser();
+
     const onClick = () => {
-        // upload model to add songs
+        if(!user){
+            return authModal.onOpen();
+        }
+        // Check for subscription
+
+        return uploadModal.onOpen();
     };
 
     return(
