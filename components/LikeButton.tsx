@@ -35,6 +35,7 @@ const LikeButton:React.FC<LikeButtonProps> =({
                 setIsLiked(true);
             }
         }
+        fetchData();
     }, [songId, supabaseClient, user?.id]);
 
     const Icon = isLiked ? AiFillHeart : AiOutlineHeart;
@@ -63,6 +64,7 @@ const LikeButton:React.FC<LikeButtonProps> =({
                 toast.success('Liked!');
             }
         }
+        router.refresh();
     }
 
     return (

@@ -28,4 +28,6 @@ const Search = async ({searchParams}: SearchProps) => {
     );
 }
 
+export const revalidate = 0;
+
 export default Search;
