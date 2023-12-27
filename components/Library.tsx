@@ -26,7 +26,6 @@ const Library: React.FC<LibraryProps> = ({
     const onPlay = useOnPlay(songs);
 
     const onClick = () => {
-        console.log('Here on CLick', subscription);
         if(!user){
             return authModal.onOpen();
         }
