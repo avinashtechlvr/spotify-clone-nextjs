@@ -1,8 +1,15 @@
-# Project Name: Spotify Clone
-> A modern, feature-rich clone of Spotify using Next.js, Supabase, and Stripe.
+Spotify Clone with Next.js 🎧🌐
+<div align="center">
+    <img src="https://img.shields.io/badge/Next.js-v13-blue?logo=next.js&style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Spotify-Clone-green?logo=spotify&style=for-the-badge" />
+    <img src="https://img.shields.io/github/stars/avinashtechlvr/spotify-clone-nextjs?style=for-the-badge" />
+    <img src="https://img.shields.io/github/forks/avinashtechlvr/spotify-clone-nextjs?style=for-the-badge" />
+</div>
+
+
 
 ## Description
-Briefly describe your project, focusing on its unique aspects and functionalities.
+`spotify-clone-nextjs` is a sophisticated and interactive Spotify clone built using the latest version of Next.js. This project demonstrates the capabilities of modern web development techniques in replicating the look and feel of the popular Spotify application
 
 ## Features 🌟
 List the key features of your Spotify clone, such as:
